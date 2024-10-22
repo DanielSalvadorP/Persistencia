@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1014caed-b3b2-400a-9da2-0a6b6c4d64c4" name="Changes" comment="|">
+    <list default="true" id="1014caed-b3b2-400a-9da2-0a6b6c4d64c4" name="Changes" comment="|Persistencia, primera prueba.">
+      <change afterPath="$PROJECT_DIR$/src/MensajeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.persistencia.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,21 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="com.persistencia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="com.persistencia" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,11 +111,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729572225201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="|Persistencia, primera prueba.">
+      <option name="closed" value="true" />
+      <created>1729572659237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729572659237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="|" />
-    <option name="LAST_COMMIT_MESSAGE" value="|" />
+    <MESSAGE value="|Persistencia, primera prueba." />
+    <option name="LAST_COMMIT_MESSAGE" value="|Persistencia, primera prueba." />
   </component>
 </project>
