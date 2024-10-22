@@ -3,9 +3,11 @@
     String message = mensaje;
     String autorMessage = autor_mensaje;
     String dateMessage = fecha_mensaje;
+    *
+    * Clase constructora
  */
 public class Message {
-    int id_message;
+    int idMessage;
     String message;
     String autorMessage;
     String dateMessage;
@@ -19,12 +21,12 @@ public class Message {
         this.dateMessage = dateMessage;
     }
 
-    public int getId_message() {
-        return id_message;
+    public int getIdMessage() {
+        return idMessage;
     }
 
-    public void setId_message(int id_message) {
-        this.id_message = id_message;
+    public void setIdMessage(int idMessage) {
+        this.idMessage = idMessage;
     }
 
     public String getMessage() {
