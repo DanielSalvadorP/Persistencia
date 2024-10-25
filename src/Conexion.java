@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class Conexion {
     public Connection get_connection(){
-        Connection connection = null;
+        Connection connection = null; //inicializa en null
         try {
             // Cadena de conexión
             connection = DriverManager.getConnection(
@@ -12,9 +12,9 @@ public class Conexion {
                     "root", // Usuario
                     ""      // Contraseña (vacía)
             );
-            if (connection != null) {
+            /*if (connection != null) {
                 System.out.println("Conexión Exitosa");
-            }
+            }*/
         } catch (SQLException e) {
             e.printStackTrace(); // Imprimir error de conexión
         }
