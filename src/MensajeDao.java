@@ -2,6 +2,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Scanner;
 
 /*
 * Clase donde tendremos el CRUD (Create, Read, Update and Delete)
@@ -52,10 +53,40 @@ public class MensajeDao {
             System.out.println(e);
         }
     }
-    public static void updateMessageDb(int idMessage){
+    public static void updateMessageDb(int idMessage, String newMessage){
+        Conexion dbConnect = new Conexion();
+
+        try(Connection connection = dbConnect.get_connection()){
+            //String query = "UPDATE mensajes SET MENSAJE = ? WHERE ID_MENSAJE = ?;";
+            //ps=connection.prepareStatement(query);
+            PreparedStatement ps = connection.prepareStatement("UPDATE mensajes SET MENSAJE = ? WHERE ID_MENSAJE = ?;");
+
+            ps.setString(1,newMessage);
+            ps.setInt(2, idMessage);
+            ps.executeUpdate();
+
+        }catch (SQLException e){
+            System.out.println(e.getMessage());
+            throw new RuntimeException(e);
+        }
+
     }
 
-    public static void deleteMessage(Message message){
-    }
+    public static void deleteMessage(int id){
+        Conexion dbConnect = new Conexion();
 
+        PreparedStatement ps = null;
+
+        try(Connection connection = dbConnect.get_connection()){
+            String query = "DELETE FROM mensajes WHERE ID_MENSAJE = ?;";
+            ps= connection.prepareStatement(query);
+            ps.setInt(1, id);
+            ps.executeUpdate();
+            System.out.println("Mensaje borrado");
+
+            readMessageDb();
+        }catch (SQLException e){
+            System.out.println(e);
+        }
+    }
 }
