@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class MessageService {
 
     public static void create() {
-        String message = "";
-        String autor = "";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Mensaje:");
+        String message = sc.nextLine();
+        System.out.println("Autor:");
+        String autor = sc.nextLine();
         MensajeDao.createMessageDb(message, autor);
     }
 
@@ -14,9 +17,9 @@ public class MessageService {
 
     public static void update(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Id");
+        System.out.println("Id:");
         int id = Integer.valueOf(sc.nextLine());
-        System.out.println();
+        System.out.println("Mensaje:");
         String message = sc.nextLine();
         MensajeDao.updateMessageDb(id, message);
     }
