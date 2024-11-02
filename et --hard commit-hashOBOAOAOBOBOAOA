@@ -1,0 +1,53 @@
+[33mcommit 93567a6b867d78aff291fb11ab55f2630e006d3e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Wed Oct 30 01:03:36 2024 -0500
+
+    |Persistencia, Termine el crud, ahora a mejorarlo
+
+[33mcommit eeaf14bda2b45df8b090df3d7b3e9bbfa79699f7[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Thu Oct 24 23:51:25 2024 -0500
+
+    |Persistencia, clase mensaje y mensaje dao creadas
+
+[33mcommit c170e715c656988554102056d7f200bebf3fa165[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Tue Oct 22 00:47:50 2024 -0500
+
+    |Persistencia, clase Message creada
+
+[33mcommit 133c6a8183f9e91be3ebb72406144c5da913bd86[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Tue Oct 22 00:39:00 2024 -0500
+
+    |Persistencia, clase Message creada
+
+[33mcommit 08dc5182f19ebee7ca57e297e8bcf2eeb0de9800[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Tue Oct 22 00:38:50 2024 -0500
+
+    |Persistencia, clase Message creada
+
+[33mcommit a721d11a24d9e9cd513a660f8868ce5b4950d2b1[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Mon Oct 21 23:50:58 2024 -0500
+
+    |Persistencia, primera prueba.
+
+[33mcommit 9bc2fcf4dead9799fd4be50580e31d89ab5fb234[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Mon Oct 21 23:42:59 2024 -0500
+
+    |
+
+[33mcommit 43ab1fb22b5b5cc2d5f8b7855f1bd2f453c7931f[m
+Author: Daniel Salvador <drante81@gmail.com>
+Date:   Mon Oct 21 23:41:58 2024 -0500
+
+    |
+
+[33mcommit 9f5f2d50e566e442634fa89827bb9589f493565f[m
+Author: DanielSalvadorP <102434423+DanielSalvadorP@users.noreply.github.com>
+Date:   Sun Oct 20 00:11:05 2024 -0500
+
+    |
